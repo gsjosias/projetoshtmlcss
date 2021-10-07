@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+}
+
+.divprincipal {
+  font-size: 20px;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #693023;
+  font-style: bold;
+  background-color: #eee3cb;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgb(165, 164, 164);
+}
+
+.formulario {
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+.formulario input,
+select {
+  border: 1px solid #693023;
+  border-radius: 5px;
+}
+
+.selecttitulos {
+  font-size: 16px;
+  color: #693023;
+}
+
+#submit {
+  font-size: 16px;
+  color: #eee3cb;
+  background-color: #693023;
+  box-shadow: 1px 1px 3px #693023;
+}

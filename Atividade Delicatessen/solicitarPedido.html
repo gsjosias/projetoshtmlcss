@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <link rel="stylesheet" href="estilos/pedido.css" />
+    <title>Pedido - Finesse do Sabor</title>
+  </head>
+  <body>
+    <div class="navegador-menu">
+      <h3 class="titulo-menu">
+        <a style="text-decoration: none" href="index.html">Finesse do Sabor</a>
+      </h3>
+      <ul type="none" class="itens-menu">
+        <li>
+          <a href="tabelas.html"><b>Tabelas nutricionais</b></a>
+        </li>
+        <li>
+          <a href="solicitarPedido.html"><b>Faça aqui o seu pedido</b></a>
+        </li>
+      </ul>
+    </div>
+    <div class="divprincipal">
+      <div>
+        <form class="formulario">
+          <label>
+            Nome <br />
+            <input type="text" id="usuarioNome" placeholder="Seu nome" required /><br />
+          </label>
+          <label>
+            Endereço (CEP) <br />
+            <input type="text" id="usuarioEndereco" placeholder="xxxxx-xxx" required /><br />
+          </label>
+          <label> E-mail<br /> </label>
+          <input type="email" id="usuarioEmail" placeholder="Exemplo@gmail.com"required /> <br />
+          <label>Opções de pedido</label><br />
+          <select name="opcoesdoces" id="opcoesdoces">
+            <option value=""></option>
+            <option value="" class="selecttitulos">-Doces-</option>
+            <option value="bolodechocolate">Bolo de chocolate</option>
+            <option value="bolorecheado">Bolo recheado</option>
+            <option value="tortadechocolate">Torta de chocolate</option>
+            <option value="tortadelimao">Torta de limão</option>
+            <option value="sorvetenopalito">Sorvete no palito</option>
+            <option value="donut">Donut</option>
+            <option value="" class="selecttitulos">-Salgados-</option>
+            <option value="batatafrita">Batata frita</option>
+            <option value="hamburguer">Hamburguer</option>
+            <option value="nachos">Nachos</option>
+            <option value="pizza">Pizza</option>
+            <option value="croissant">Croissant</option>
+            <option value="hotdog">Hotdog</option>
+          </select>
+          <br/>
+          <label>
+            Quantidade <br />
+            <input type="number" id="quantidadepedido" min="0" required /><br />
+          </label>
+          <br/>
+          <input type="submit" value="Efetuar pedido" id="submit"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

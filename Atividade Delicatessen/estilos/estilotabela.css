@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+}
+
+.divsalgados, .divdoces {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #693023;
+  font-size: xx-large;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.colunascor1 {
+  background-color: #eee3cb;
+}
